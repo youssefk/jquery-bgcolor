@@ -1,13 +1,16 @@
 $(document).ready(function() {
-  $("button#green").click(function() {
+  $("button#green").hover(function() {
+    $("body").removeClass();
     $("body").addClass("green-background");
   });
 
-  $("button#yellow").click(function() {
+  $("button#yellow").hover(function() {
+    $("body").removeClass();
     $("body").addClass("yellow-background");
   });
 
-  $("button#red").click(function() {
+  $("button#red").hover(function() {
+    $("body").removeClass();
     $("body").addClass("red-background");
   });
 });
